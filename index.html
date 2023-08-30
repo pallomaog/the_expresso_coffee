@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono:wght@300&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/logo favicon1.png" type="image/x-icon">
+    <title>The Expresso Coffee</title>
+</head>
+<body>  
+    <header class="navbar navbar-expand-lg sticky-top p-1" id="header-top">
+        <div class="container">
+            <div class="logo-header">
+                <a href="#about-cofe" class="d-flex align-items-center text-decoration-none">
+                    <img src="./icon.png" alt="Logo do restaurante" width="100">
+                    <h1 class="navbar-brand title-section m-0 fs-4">The Expresso Coffee</h1>
+                </a>
+            </div>
+            <button type="button" class="navbar-toggler bg-white" data-bs-toggle="collapse" data-bs-target="#menu-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu-navigation">
+                <ul class="nav nav-pills d-block d-md-flex mt-2">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#about-cofe">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a cafeteria
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#events">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#food-menu">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#contact">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#header-top" data-bs-smooth-scroll="true">
+        <section id="about-cofe">
+            <div class="carousel slide" data-bs-ride="carousel" id="primary-carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="d-block w-100"  src="./img/slide/slide 1.jpg" alt="Foto do espaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./img/slide/slide 2.jpg">
+                    </div>
+                    
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./img/slide/slide 3.jpg">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="d-block w-100" src="./img/slide/slide 4.jpg">
+                    </div>
+                    
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#primary-carousel">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#primary-carousel">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-slide-to="0" data-bs-target="#primary-carousel" class="active"></button>
+                    <button type="button" data-bs-slide-to="1" data-bs-target="#primary-carousel"></button>
+                    <button type="button" data-bs-slide-to="2" data-bs-target="#primary-carousel"></button>
+                    <button type="button" data-bs-slide-to="3" data-bs-target="#primary-carousel"></button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mt-5 mb-5">
+                    <div class="col-md-5">
+                        <img class="w-100 rounded" src="./img/sobre a cafeteria.jpg" alt="Foto interior do restaurante">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="title-section">Sobre a <span class="colored-text">cafeteria</span></h2>
+                        <p>The Expresso Coffee, onde a estética se encontra com o café. Decoração minimalista em tons naturais cria um ambiente cativante. Baristas dedicados transformam a preparação do café em uma arte sensorial. Espaços aconchegantes convidam à contemplação e criatividade. Cenários fotogênicos enriquecem suas memórias e feeds nas redes sociais. Uma cafeteria que transcende o trivial, oferecendo um refúgio de beleza e sabor.</p>
+                        <h3 class="title-section">Sobre o <span class="colored-text">espaço</span></h3>
+                        <p>The Expresso Coffee, onde a estética encontra paz. Decoração minimalista, café sensorial e espaços acolhedores se entrelaçam para inspirar. De cantos tranquilos a cenários fotogênicos, cada momento transcende. Encontre mais que café, encontre um refúgio de beleza e calma.</p>
+        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="events" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="title-section text-center">Para todas as <span class="colored-text">ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="./img/eventos/bolo 1 (1).jpg" alt="bolinhos de aniversário">
+                        <h3 class="title-section colored-text mt-3 mb-2 fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aniversários
+                        </h3>
+                        <p>Seu aniversário só pode ser comemorado com seus amigos e família aqui na The Expresso Coffee.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="./img/eventos/0db64d25092235010124f7d4630ca7d6.jpg" alt="casal mostrando as alianças">
+                        <h3 class="title-section colored-text mt-3 mb-2 fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Recepção para casamentos
+                        </h3>
+                        <p>Celebre seu amor em lugar aconchegante e único.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="./img/eventos/1ab379e21c221b6a18c7c24bcd0546f4.jpg" alt="pessoas brindando com doces">
+                        <h3 class="title-section colored-text mt-3 mb-2 fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternizações
+                        </h3>
+                        <p>Confraternize com seus amigos em uma cafeteria única e receptiva.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="food-menu" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="title-section text-center mb-5">
+                        Nosso <span class="colored-text">cardápio</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button data-bs-toggle="tab" data-bs-target="#bebidas" class="nav-link fw-bold active colored-text text-start" type="button">bebidas</button>
+                            <button data-bs-toggle="tab" data-bs-target="#sobremesas" class="nav-link fw-bold colored-text text-start" type="button">sobremesas</button>
+                            <button data-bs-toggle="tab" data-bs-target="#lanches" class="nav-link fw-bold colored-text text-start" type="button">lanches</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-3" src="./img/cardapio/bebidas/hot coffee.jpg" alt="cafe">
+                                        <h5 class="colored-text fw-bold">hot coffee</h5>
+                                        <p>hot coffee, o nosso carro chefe que esquenta nossos corações.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-3" src="./img/cardapio/bebidas/café gelado em vidro.jpg" alt="café">
+                                        <h5 class="colored-text fw-bold">ice coffee</h5>
+                                        <p>ice coffee em garrafinhas para acompanhar você aonde for.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-3" src="./img/cardapio/bebidas/café gelado.jpg" alt="café gelado">
+                                        <h5 class="colored-text fw-bold">caramel ice coffee</h5>
+                                        <p>caramel ice coffee. o mais pedido. o mais amado.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-3" src="./img/cardapio/bebidas/capuccino gelado.jpg" alt="capuccino">
+                                        <h5 class="colored-text fw-bold">capuccino gelado</h5>
+                                        <p> o mais puro sabor do caramelo acompanhado de leite cremoso e raspas de chocolate.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-3" src="./img/cardapio/bebidas/frapuccino de morango.jpg" alt="frapuccino">
+                                        <h5 class="colored-text fw-bold">frapuccino de morango</h5>
+                                        <p>o sabor puro do morango com chantili e menta.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-3" src="./img/cardapio/bebidas/leite de morango e limão.jpg" alt="leite">
+                                        <h5 class="colored-text fw-bold">leite de morango e limão</h5>
+                                        <p>leites derivados de frutas, morango e limão. refrescantes e únicos.</p>
+                                    </div>
+                                
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-3" src="./img/cardapio/docinhos/bolo de chocolate com morango.jpg" alt="bolo">
+                                        <h5 class="colored-text fw-bold">bolo de chocolate com morango</h5>
+                                        <p>bolo de chocolate com musse de chocolate com morangos cortados.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-3" src="./img/cardapio/docinhos/bolo de morango.jpg" alt="bolo">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                        <h5 class="colored-text fw-bold">bolo de morango</h5>
+                                        <p>bolo de morango com merengue, um dos mais requisitados e queridos.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-3" src="./img/cardapio/docinhos/cookies.jpg" alt="cookies">
+                                        <h5 class="colored-text fw-bold">cookies</h5>
+                                        <p>cookies do clássico aos mais diferentes sabores. únicos e amados.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-3" src="./img/cardapio/docinhos/macarroms de coração.jpg" alt="macarons">
+                                        <h5 class="colored-text fw-bold">heart macarons</h5>
+                                        <p>corpo compacto, muito recheio e enorme sabor.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-3" src="./img/cardapio/docinhos/mini bolinhos.jpg" alt="bolinhos">
+                                        <h5 class="colored-text fw-bold">mini bolinhos</h5>
+                                        <p>nossos mini bolinhos, vários sabores, sensações únicas.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-3" src="./img/cardapio/docinhos/sorvete.jpg" alt="sorvete">
+                                        <h5 class="colored-text fw-bold">sorvetes</h5>
+                                        <p>sorvetes feitos a base doce de leite com vários sabores e casquinha recheada.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="lanches">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-3" src="./img/cardapio/lanches/café gelado com bolinhos.jpg" alt="Bolo de chocolate">
+                                        <h5 class="colored-text fw-bold">ice coffee com bolinhos</h5>
+                                        <p>café expresso gelado com caramelo e creme, suco de morango e bolinhos de chocolate e doce leite.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 mb-3" src="./img/cardapio/lanches/sanduiche natural.jpg" alt="Cupcake">
+                                        <h5 class="colored-text fw-bold">sanduiche natural</h5>
+                                        <p>sanduiche natural feito com pão da casa, peito de frango, alface e ovos. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="title-section text-center">Fale <span class="colored-text">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-2">
+                                <label class="form-label colored-text fw-bold" for="name">Seu nome</label>
+                                <input class="form-control" type="text" id="name" required>
+                            </div>
+                            <div class="mb-2">
+                                <label class="form-label colored-text fw-bold" for="email">Seu e-mail</label>
+                                <input class="form-control" type="email" id="email" placeholder="exemplo@gmail.com" required>
+                            </div>
+                            <div class="mb-2">
+                                <label class="form-label colored-text fw-bold" for="tell">Seu telefone (opcional)</label>
+                                <input class="form-control" type="tel" id="tell">
+                            </div>
+                            <div class="mb-2">
+                                <label class="form-label colored-text fw-bold" for="message">Sua mensagem</label>
+                                <textarea class="form-control" id="message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h4 class="title-section colored-text">
+                                <i class="bi bi-hand-thumb-up-fill"></i>
+                                Redes sociais
+                            </h4>
+                            <ul class="social-links">
+                                <li>
+                                    <a href="#" class="social-links-icon" >
+                                        <i class="bi bi-facebook colored-text fs-5"></i>
+                                    </a>
+                                </li>
+                                <li class="ms-2 me-2">
+                                    <a href="#" class="social-links-icon">
+                                        <i class="bi bi-instagram colored-text fs-5"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="social-links-icon">
+                                        <i class="bi bi-whatsapp colored-text fs-5"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h4 class="title-section colored-text">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço 
+                            </h4>
+                            <p>
+                                Bairro do Limoeiro nº 001, Campinas - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+
+    <script src="./lib/jquery-3.6.3.min.js"></script>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="./lib/jquery.mask.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
